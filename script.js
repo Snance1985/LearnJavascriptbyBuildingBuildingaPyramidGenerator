@@ -10,6 +10,13 @@ For example, here is how you would declare a hello variable:
 let hello;
 
 Variable naming follows specific rules: names can include letters, numbers, dollar signs, and underscores, but cannot contain spaces and must not begin with a number.
+
+You can assign a value using the assignment operator =.
+For example:
+
+let hello = "Hello";
+
+Assigning a value to a variable at the moment of its declaration is known as initialization.
 */
 
-let character;
+let character = "Hello";
