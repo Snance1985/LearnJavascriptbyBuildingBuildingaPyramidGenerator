@@ -17,6 +17,11 @@ For example:
 let hello = "Hello";
 
 Assigning a value to a variable at the moment of its declaration is known as initialization.
+
+JavaScript has seven primitive data types, with String being one of them.
+In JavaScript, a string represents a sequence of characters and can be enclosed in either single (') or double (") quotes.
+
+Note that strings are immutable, which means once they are created, they cannot be changed.
 */
 
-let character = "Hello";
+let character = 'Hello';
