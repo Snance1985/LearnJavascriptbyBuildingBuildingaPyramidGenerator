@@ -45,3 +45,4 @@ Note that when reassigning a variable that has already been declared, you do not
 let character = 'Hello';
 console.log(character);
 character = "World";
+console.log(character);
