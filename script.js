@@ -22,6 +22,17 @@ JavaScript has seven primitive data types, with String being one of them.
 In JavaScript, a string represents a sequence of characters and can be enclosed in either single (') or double (") quotes.
 
 Note that strings are immutable, which means once they are created, they cannot be changed.
+
+The console allows you to print and view JavaScript output.
+You can send information to the console using console.log().
+For example, this code will print "Naomi" to the console:
+
+let developer = "Naomi";
+console.log(developer);
+
+The code above accesses the developer variable with its name in the console.log().
+Note that the value between the parentheses is the value that will be printed.
 */
 
 let character = 'Hello';
+console.log(character);
