@@ -40,9 +40,22 @@ let programmer = "Naomi";
 programmer = "CamperChan";
 
 Note that when reassigning a variable that has already been declared, you do not use the let keyword.
+
+When variable names are more than one word, there are specific naming conventions for how you capitalize the words.
+In JavaScript, the convention to use is camel case.
+
+Camel case means that the first word in the name is entirely lowercase, but the following words are all title-cased.
+Here are some examples of camel case:
+
+let variableOne;
+let secondVariable;
+let yetAnotherVariable;
+let thisIsAnAbsurdlyLongName;
+
 */
 
 let character = 'Hello';
 console.log(character);
 character = "World";
 console.log(character);
+let secondCharacter;
