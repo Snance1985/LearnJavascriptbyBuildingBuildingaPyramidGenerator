@@ -32,7 +32,16 @@ console.log(developer);
 
 The code above accesses the developer variable with its name in the console.log().
 Note that the value between the parentheses is the value that will be printed.
+
+When a variable is declared with the let keyword, you can reassign (or change the value of) that variable later on.
+In this example, the value of programmer is changed from "Naomi" to "CamperChan".
+
+let programmer = "Naomi";
+programmer = "CamperChan";
+
+Note that when reassigning a variable that has already been declared, you do not use the let keyword.
 */
 
 let character = 'Hello';
 console.log(character);
+character = "World";
