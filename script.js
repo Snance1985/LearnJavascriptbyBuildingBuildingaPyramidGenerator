@@ -61,6 +61,16 @@ Here is an example:
 let uninitialized;
 uninitialized = "assigned";
 
+You can also assign the value of a variable to another variable.
+For example:
+
+let first = "One";
+let second = "Two";
+second = first;
+
+The second variable would now have the value "One".
+
+
 */
 
 let character = 'Hello';
@@ -68,5 +78,5 @@ console.log(character);
 character = "World";
 console.log(character);
 let secondCharacter;
-secondCharacter = "Test";
+secondCharacter = character;
 console.log(secondCharacter);
