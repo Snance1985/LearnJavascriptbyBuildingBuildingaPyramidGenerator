@@ -70,13 +70,13 @@ second = first;
 
 The second variable would now have the value "One".
 
+When using a number value, you do not use quotes.
+For example:
+
+let money = 100;
+
 
 */
 
 let character = 'Hello';
-console.log(character);
-character = "World";
-console.log(character);
-let secondCharacter;
-secondCharacter = character;
-console.log(secondCharacter);
+let count = 8;
