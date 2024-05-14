@@ -52,6 +52,15 @@ let secondVariable;
 let yetAnotherVariable;
 let thisIsAnAbsurdlyLongName;
 
+The default value of an uninitialized variable is undefined.
+This is a special data type that represents a value that does not have a definition yet.
+
+You can still assign a value to an uninitialized variable.
+Here is an example:
+
+let uninitialized;
+uninitialized = "assigned";
+
 */
 
 let character = 'Hello';
@@ -59,4 +68,5 @@ console.log(character);
 character = "World";
 console.log(character);
 let secondCharacter;
+secondCharacter = "Test";
 console.log(secondCharacter);
