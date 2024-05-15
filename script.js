@@ -75,8 +75,11 @@ For example:
 
 let money = 100;
 
+With the number data type, you can perform mathematical operations, like addition.
+
 
 */
 
 let character = 'Hello';
 let count = 8;
+console.log(count + 1);
