@@ -100,6 +100,15 @@ An index is a number representing the position of the value in the array, starti
 
 You can access the value using bracket notation, such as array[0].
 
+Arrays are special in that they are considered mutable.
+This means you can change the value at an index directly.
+
+For example, this code would assign the number 25 to the second element in the array:
+
+let array = [1, 2, 3];
+array[1] = 25;
+console.log(array); // prints [1, 25, 3]
+
 
 */
 
@@ -108,3 +117,5 @@ let count = 8;
 console.log(count + 1);
 let rows = ["Naomi","Quincy","CamperChan"];
 console.log(rows[0]);
+rows[2] = 10;
+console.log(rows);
