@@ -95,6 +95,11 @@ Here is an array that holds two strings:
 
 let array = ["first", "second"];
 
+You can access the values inside an array using the index of the value.
+An index is a number representing the position of the value in the array, starting from 0 for the first value.
+
+You can access the value using bracket notation, such as array[0].
+
 
 */
 
@@ -102,3 +107,4 @@ let character = 'Hello';
 let count = 8;
 console.log(count + 1);
 let rows = ["Naomi","Quincy","CamperChan"];
+console.log(rows[0]);
