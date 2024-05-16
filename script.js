@@ -90,10 +90,15 @@ Arrays are denoted using square brackets ([]).
 Here is an example of a variable with the value of an empty array:
 
 let array = [];
+When an array holds values, or elements, those values are separated by commas.
+Here is an array that holds two strings:
+
+let array = ["first", "second"];
+
 
 */
 
 let character = 'Hello';
 let count = 8;
 console.log(count + 1);
-let rows = [];
+let rows = ["Naomi","Quincy","CamperChan"];
