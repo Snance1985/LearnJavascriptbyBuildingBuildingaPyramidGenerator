@@ -133,6 +133,12 @@ This allows you to "push" a value to the end of an array. Here is an example to 
 
 array.push(12);
 
+Another method essential for this project is the .pop() method.
+It removes the last element from an array and returns that element.
+
+When a method returns a value, you can think of it as giving the value back to you, making it available for use in other parts of your code.
+
+
 */
 
 let character = 'Hello';
@@ -140,4 +146,6 @@ let count = 8;
 console.log(count + 1);
 let rows = ["Naomi","Quincy","CamperChan"];
 rows.push("freeCodeCamp");
+let popped = rows.pop();
+console.log(popped);
 console.log(rows);
