@@ -125,6 +125,13 @@ array[array.length - 1]
 array.length returns the number of elements in the array.
 By subtracting 1, you get the index of the last element in the array.
 
+A method in JavaScript is a function that's associated with certain values or objects.
+An example you've already encountered is the .log() method, which is part of the console object.
+
+Arrays have their own methods, and the first you will explore is the .push() method.
+This allows you to "push" a value to the end of an array. Here is an example to add the number 12 to the end of an array:
+
+array.push(12);
 
 */
 
@@ -132,6 +139,5 @@ let character = 'Hello';
 let count = 8;
 console.log(count + 1);
 let rows = ["Naomi","Quincy","CamperChan"];
-console.log(rows[0]);
-rows[rows.length-1] = 10;
+rows.push("freeCodeCamp");
 console.log(rows);
