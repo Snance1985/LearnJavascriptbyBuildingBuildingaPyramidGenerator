@@ -156,12 +156,21 @@ for loops use the following syntax:
 for (iterator; condition; iteration) {
   logic;
 }
+The iterator is a variable you can declare specifically in your for loop to control how the loop iterates or goes through your logic.
+
+It is a common convention to use i as your iterator variable in a loop.
+A for loop allows you to declare this in the parentheses ().
+For example, here is a for loop that declares an index variable and assigns it the value 100.
+
+for (let index = 100; "second"; "third") {
+
+}
 
 */
 
 const character = "#";
 const count = 8;
 const rows = [];
-for("iterator"; "condition"; "iteration") {
+for(let i = 0; "condition"; "iteration") {
 
 }
