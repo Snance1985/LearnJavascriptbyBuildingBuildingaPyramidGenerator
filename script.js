@@ -138,15 +138,21 @@ It removes the last element from an array and returns that element.
 
 When a method returns a value, you can think of it as giving the value back to you, making it available for use in other parts of your code.
 
+const variables are special.
+
+First, a const variable cannot be reassigned like a let variable.
+This code would throw an error:
+
+const firstName = "Naomi";
+firstName = "Jessica";
+
+A const variable also cannot be uninitialized.
+This code would throw an error:
+
+const firstName;
 
 */
 
-let character = 'Hello';
-let count = 8;
-console.log(count + 1);
-let rows = ["Naomi","Quincy","CamperChan"];
-let pushed = rows.push("freeCodeCamp");
-console.log(pushed);
-let popped = rows.pop();
-console.log(popped);
-console.log(rows);
+const character = "Hello";
+const count = 8;
+const rows = [];
