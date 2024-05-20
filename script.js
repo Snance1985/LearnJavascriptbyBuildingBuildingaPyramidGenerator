@@ -165,12 +165,19 @@ For example, here is a for loop that declares an index variable and assigns it t
 for (let index = 100; "second"; "third") {
 
 }
+The condition of a for loop tells the loop how many times it should iterate.
+When the condition becomes false, the loop will stop.
+
+In JavaScript, a Boolean value can be either true or false.
+For now, you will use the less than operator (<).
+This allows you to check if the value on the left is less than the value on the right.
+For example, count < 3 would evaluate to true if count is 2, and false if count is 4.
 
 */
 
 const character = "#";
 const count = 8;
 const rows = [];
-for(let i = 0; "condition"; "iteration") {
+for(let i = 0; i < count; "iteration") {
 
 }
