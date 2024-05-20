@@ -151,8 +151,17 @@ This code would throw an error:
 
 const firstName;
 
+for loops use the following syntax:
+
+for (iterator; condition; iteration) {
+  logic;
+}
+
 */
 
-const character = "Hello";
+const character = "#";
 const count = 8;
 const rows = [];
+for("iterator"; "condition"; "iteration") {
+
+}
