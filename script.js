@@ -173,11 +173,17 @@ For now, you will use the less than operator (<).
 This allows you to check if the value on the left is less than the value on the right.
 For example, count < 3 would evaluate to true if count is 2, and false if count is 4.
 
+Your iteration statement will tell your loop what to do with the iterator after each run.
+
+When you reassign a variable, you can use the variable to reference the previous value before the reassignment.
+This allows you to do things like add three to an existing number.
+For example, bees = bees + 3; would increase the value of bees by three.
+
 */
 
 const character = "#";
 const count = 8;
 const rows = [];
-for(let i = 0; i < count; "iteration") {
+for(let i = 0; i < count; i= i +1) {
 
 }
