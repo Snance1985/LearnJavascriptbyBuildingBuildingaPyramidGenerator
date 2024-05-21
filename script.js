@@ -195,6 +195,12 @@ You can do a similar thing with a string value, by appending a new string to an 
 For example, hello = hello + " World"; would add the string " World" to the existing string stored in the hello variable.
 This is called concatenation.
 
+You will need to add a new line to each row.
+However, pressing the return key to insert a line break between quotes in JavaScript will result in a parsing error.
+Instead, you need to use the special escape sequence \n, which is interpreted as a new line when the string is logged.
+For example:
+
+lineOne = lineOne + "\n" + lineTwo;
 
 */
 
@@ -207,5 +213,5 @@ for(let i = 0; i < count; i= i +1) {
 let result = "";
 console.log(result);
 for (const row of rows) {
-    result = result + row;
+    result = result + "\n" + row;
 }
