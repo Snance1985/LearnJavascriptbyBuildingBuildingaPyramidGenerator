@@ -179,6 +179,15 @@ When you reassign a variable, you can use the variable to reference the previous
 This allows you to do things like add three to an existing number.
 For example, bees = bees + 3; would increase the value of bees by three.
 
+A for...of loop iterates over each item in an iterable object and temporarily assigns it to a variable.
+
+The syntax for a for...of loop looks like:
+
+for (const value of iterable) {
+
+}
+
+Note that you can use const because the variable only exists for a single iteration, not during the entire loop.
 */
 
 const character = "#";
@@ -186,4 +195,9 @@ const count = 8;
 const rows = [];
 for(let i = 0; i < count; i= i +1) {
     rows.push(i);
+}
+let result = "";
+console.log(result);
+for (const row of rows) {
+
 }
