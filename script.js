@@ -202,13 +202,20 @@ For example:
 
 lineOne = lineOne + "\n" + lineTwo;
 
+The repeat() method accepts a number as an argument, specifying the number of times to repeat the target string.
+For example, using .repeat() to generate the string "Code! Code! Code!":
+
+const activity = "Code! ";
+activity.repeat(3);
+
 */
 
 const character = "#";
 const count = 8;
 const rows = [];
 for(let i = 0; i < count; i= i +1) {
-    rows.push(i);
+    rows.push(character);
+    character.repeat(i);
 }
 let result = "";
 console.log(result);
