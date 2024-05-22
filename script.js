@@ -208,14 +208,19 @@ For example, using .repeat() to generate the string "Code! Code! Code!":
 const activity = "Code! ";
 activity.repeat(3);
 
+The first index of your rows array is 0, which is why you start your for loop with i = 0.
+But repeating a string zero times results in nothing to print.
+
+To fix this, add 1 to the value of i in your .repeat() call.
+
+
 */
 
 const character = "#";
 const count = 8;
 const rows = [];
 for(let i = 0; i < count; i= i +1) {
-    rows.push(character);
-    character.repeat(i);
+  rows.push(character.repeat(i + 1))
 }
 let result = "";
 console.log(result);
