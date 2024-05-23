@@ -236,15 +236,25 @@ function test() {
 test();
 All functions in JavaScript return a value, meaning they provide the defined result of calling them for you to use elsewhere.
 
+By default, functions return undefined as their value.
+
+In order to return something else, you need to use the return keyword.
+Here is an example of a function that returns the string "Functions are cool!":
+
+function demo() {
+  return "Functions are cool!";
+}
+
 */
 
 const character = "#";
 const count = 8;
 const rows = [];
 function padRow() {
-  
+  return "Hello!";
 }
 const call = padRow();
+console.log(call);
 for(let i = 0; i < count; i= i +1) {
   rows.push(character.repeat(i + 1))
 }
