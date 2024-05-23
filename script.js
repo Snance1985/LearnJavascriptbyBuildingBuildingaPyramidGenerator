@@ -234,6 +234,7 @@ function test() {
 
 }
 test();
+All functions in JavaScript return a value, meaning they provide the defined result of calling them for you to use elsewhere.
 
 */
 
@@ -243,7 +244,7 @@ const rows = [];
 function padRow() {
   
 }
-padRow();
+const call = padRow();
 for(let i = 0; i < count; i= i +1) {
   rows.push(character.repeat(i + 1))
 }
