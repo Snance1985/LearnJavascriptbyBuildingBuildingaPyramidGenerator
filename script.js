@@ -224,6 +224,17 @@ The function keyword tells JavaScript that the name variable is going to be a fu
 parameter is a variable that represents a value that is passed into the function when it is used.
 A function may have as many, or as few, parameters as you'd like.
 Like a for loop, the space between the curly braces is the function body.
+
+In order to use a function, you need to call it.
+A function call tells your application to run the code from the function wherever you choose to call it.
+The syntax for a function call is the function name followed by parentheses.
+For example, this code defines and calls a test function.
+
+function test() {
+
+}
+test();
+
 */
 
 const character = "#";
@@ -232,6 +243,7 @@ const rows = [];
 function padRow() {
   
 }
+padRow();
 for(let i = 0; i < count; i= i +1) {
   rows.push(character.repeat(i + 1))
 }
