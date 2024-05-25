@@ -253,6 +253,17 @@ function demo(name) {
 
 }
 
+If you open your console again, you'll see that your padRow function is returning undefined, even though you defined a return value!
+This is because parameters need to be given a value when you call the function.
+
+When you pass a value to a function call, that value is referred to as an argument.
+Here is an example of calling a demo function and passing "Naomi" as the argument for the name parameter.
+
+function demo(name) {
+  return name;
+}
+demo("Naomi");
+
 */
 
 const character = "#";
@@ -261,7 +272,7 @@ const rows = [];
 function padRow(name) {
   return name;
 }
-const call = padRow();
+const call = padRow("Sean");
 console.log(call);
 for(let i = 0; i < count; i= i +1) {
   rows.push(character.repeat(i + 1))
