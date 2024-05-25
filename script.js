@@ -245,12 +245,20 @@ function demo() {
   return "Functions are cool!";
 }
 
+Parameters are special variables that are given a value when you call the function, and can be used in your function to dynamically change the result of the function's code.
+
+To add a parameter to your function, you need to add a variable name inside the parentheses. For example, this demo function has a name parameter:
+
+function demo(name) {
+
+}
+
 */
 
 const character = "#";
 const count = 8;
 const rows = [];
-function padRow() {
+function padRow(name) {
   return "Hello!";
 }
 const call = padRow();
