@@ -280,6 +280,10 @@ function demo(name) {
 }
 demo("Naomi")
 
+Variables can also be declared inside a function.
+These variables are considered to be in the local scope, or block scope.
+A variable declared inside a function can only be used inside that function.
+If you try to access it outside of the function, you will either get undefined or an error.
 */
 
 const character = "#";
@@ -287,6 +291,7 @@ const count = 8;
 const rows = [];
 function padRow(name) {
   return character + name;
+  const test = "Testing";
 }
 const call = padRow("Sean");
 console.log(call);
