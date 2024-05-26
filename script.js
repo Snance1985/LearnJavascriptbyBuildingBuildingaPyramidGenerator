@@ -290,8 +290,8 @@ const character = "#";
 const count = 8;
 const rows = [];
 function padRow(name) {
-  return character + name;
   const test = "Testing";
+  return character + name;
 }
 const call = padRow("Sean");
 console.log(call);
