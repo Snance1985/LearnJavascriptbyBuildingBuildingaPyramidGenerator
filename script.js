@@ -292,7 +292,7 @@ const character = "#";
 const count = 8;
 const rows = [];
 function padRow(rowNumber, rowCount) {
-
+  return character.repeat(rowNumber);
 }
 
 for(let i = 0; i < count; i= i +1) {
