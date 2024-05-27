@@ -286,6 +286,15 @@ A variable declared inside a function can only be used inside that function.
 If you try to access it outside of the function, you will either get undefined or an error.
 
 Returning a value from a function brings that value into the scope where the function was called.
+
+A function call allows you to actually use a function.
+You may not have been aware of it, but the methods like .push() that you have been using have been function calls.
+
+A function is called by referencing the function's name, and adding ().
+Here's how to call a test function:
+
+test();
+
 */
 
 const character = "#";
@@ -296,7 +305,7 @@ function padRow(rowNumber, rowCount) {
 }
 
 for(let i = 0; i < count; i= i +1) {
-  rows.push(character.repeat(i + 1))
+  rows.push(padRow())
 }
 let result = "";
 console.log(result);
