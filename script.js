@@ -291,12 +291,10 @@ Returning a value from a function brings that value into the scope where the fun
 const character = "#";
 const count = 8;
 const rows = [];
-function padRow(name) {
-  const test = "Testing";
-  return test;
+function padRow(rowNumber, rowCount) {
+
 }
-const call = padRow("Sean");
-console.log(call);
+
 for(let i = 0; i < count; i= i +1) {
   rows.push(character.repeat(i + 1))
 }
