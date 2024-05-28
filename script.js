@@ -303,13 +303,20 @@ Here's a function call with "Hello" passed as an argument:
 
 test("Hello");
 
+You can pass full expressions as an argument.
+The function will receive the result of evaluating that expression.
+For example, these two function calls would yield the same result:
+
+test(2 * 3 + 1);
+test(7);
+
 */
 
 const character = "#";
 const count = 8;
 const rows = [];
 function padRow(rowNumber, rowCount) {
-  return " ".repeat(rowCount - rowNumber) + character.repeat(rowNumber) + " ".repeat(rowCount - rowNumber);
+  return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
 }
 
 for(let i = 0; i < count; i= i +1) {
