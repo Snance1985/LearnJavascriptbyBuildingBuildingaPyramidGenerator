@@ -318,6 +318,13 @@ For example, these two statements would yield the same result:
 test = test + 1;
 test += 1;
 
+You can use the increment operator ++.
+This operator increases the value of a variable by 1, updating the assignment for that variable.
+For example, test would become 8 here:
+
+let test = 7;
+test++;
+
 */
 
 const character = "#";
@@ -327,7 +334,7 @@ function padRow(rowNumber, rowCount) {
   return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
 }
 
-for(let i = 0; i < count; i += 1) {
+for(let i = 0; i < count; i ++) {
   rows.push(padRow(i + 1, count))
 }
 let result = "";
